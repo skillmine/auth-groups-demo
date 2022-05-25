@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { AdminservicesService } from './adminservices.service';
+import { AdminservicesService } from '../adminservices.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-group',
+  templateUrl: './group.component.html',
+  styleUrls: ['./group.component.scss']
 })
-export class AppComponent implements OnInit {
+export class GroupComponent implements OnInit {
   title = 'auth-groups-demo';
 
   access_token: string = "";
